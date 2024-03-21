@@ -20,7 +20,7 @@ const projects = [
       title: "ITIS 4166 - Web Development",
       description: "The main outcome of this course was to create website that load dynamic data from a database MongoDB.",
       type: "Node Application",
-      tags: ["HTML","CSS","Javascript", "MongoDB", "Node.js"],
+      tags: ["HTML","CSS","Javascript", "MongoDB", "Node.js", "Academic", "Express"],
       details: [
         { type: "image", src: "/images/leon.jpg" },
         { type: "text", content: "ksjdksdnsad"},

@@ -16,7 +16,7 @@ function Header() {
     <Link href="/about">About Me</Link>
   </li>
   <li className="nav-item nav-item-spacing">
-    <Link href="/projects">Academic Projects</Link>
+    <Link href="/projects?tag=Academic">Academic Projects</Link>
   </li>
   <li className="nav-item nav-item-spacing">
     <Link href="/personal-projects">Personal Projects</Link>
