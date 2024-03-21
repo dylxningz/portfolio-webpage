@@ -1,35 +1,31 @@
-import Head from 'next/head';
-import Header from '../components/Header';
+import Link from 'next/link';
+import projects from '../data/projectsModel';
 import Footer from '@/components/Footer';
-import { Container, Row, Col, Card, Button } from 'react-bootstrap';
-import projects from '../models/projectModel'; // Adjust the path as necessary
+import Header from '@/components/Header';
 
-function Project() {
+export default function ProjectsPage() {
   return (
-    <div>
-      <Head>
-        <title>Projects</title>
-      </Head>
+    <>
       <Header />
-      <Container className="mt-5">
-        <Row xs={1} md={2} lg={4} className="g-4">
+      <div className="container">
+        <h1>Projects</h1>
+        <div className="row">
           {projects.map((project) => (
-            <Col key={project.id}>
-              <Card>
-                <Card.Body>
-                  <Card.Title>{project.title}</Card.Title>
-                  <Card.Text>{project.type} Project</Card.Text>
-                  <Card.Text>Language: {project.language}</Card.Text>
-                  <Button variant="primary" href={project.link}>Learn More</Button>
-                </Card.Body>
-              </Card>
-            </Col>
+            <div key={project.id} className="col-md-4 mb-3">
+              <div className="card">
+                <div className="card-body">
+                  <h5 className="card-title">{project.title}</h5>
+                  <p className="card-text">{project.description}</p>
+                  <Link href={`/project/${project.id}`} legacyBehavior>
+                    <a className="btn btn-primary">Learn More</a>
+                  </Link>
+                </div>
+              </div>
+            </div>
           ))}
-        </Row>
-      </Container>
+        </div>
+      </div>
       <Footer />
-    </div>
+    </>
   );
 }
-
-export default Project;

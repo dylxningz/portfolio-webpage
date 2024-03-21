@@ -9,6 +9,31 @@
     --dark-color: #2a3346; /* A dark slate color for text and important elements */
 }
 
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+#__next {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.site-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the site container takes up at least the viewport height */
+}
+
+.content {
+  flex: 1; /* This allows the main content to expand and push the footer to the bottom */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+}
+
 .nav-item-spacing {
     margin-right: 30px; /* Adjust the spacing as needed */
   }
@@ -39,5 +64,9 @@ margin-bottom: 100px;
 .footer {
   margin-top: auto; /* Pushes the footer to the bottom */
   padding: 1rem;
+}
+
+.project-description-text{
+  margin-top: 50px;
 }
 
