@@ -1,0 +1,43 @@
+:root {
+    --primary-color: #afd4f3; /* A vibrant, yet not overly bright blue */
+    --secondary-color: #6D8891; /* A muted, grayish-blue for secondary elements */
+    --accent-color: #50B2C0; /* A calming teal for accentuating elements */
+    --accent2-color: #88A09E; /* A soft seafoam green, great for highlights */
+    --pop-color: #F2C14E; /* A muted gold for important, standout elements */
+    --info-color: #345B63; /* A deep teal for informational components */
+    --light-color: #674e94; /* A light cream, providing a soft background color */
+    --dark-color: #2a3346; /* A dark slate color for text and important elements */
+}
+
+.nav-item-spacing {
+    margin-right: 30px; /* Adjust the spacing as needed */
+  }
+
+  body{
+    background-color: var(--dark-color);
+    font-family: "Nunito", sans-serif;;
+    color: white;
+  }
+
+  nav{
+background-color: var(--dark-color);
+margin-bottom: 100px;
+  }
+  .nav-item a{
+    color: var(--primary-color);
+    font-size: 15px;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+.navbar-brand{
+    color: var(--primary-color);
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.footer {
+  margin-top: auto; /* Pushes the footer to the bottom */
+  padding: 1rem;
+}
+
