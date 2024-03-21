@@ -17,7 +17,7 @@ export default function ProjectsPage() {
     <>
       <Header />
       <div className="container">
-        <h1>{tag ? `${tag.charAt(0).toUpperCase() + tag.slice(1)} Projects` : 'Projects'}</h1>
+        <h1 className='head-title'>{tag ? `${tag.charAt(0).toUpperCase() + tag.slice(1)} Projects` : 'Projects'}</h1>
         <div className="row">
           {filteredProjects.length > 0 ? (
             filteredProjects.map((project) => (

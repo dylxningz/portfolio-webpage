@@ -41,6 +41,7 @@ function ProjectPage({ project }) {
     return (
       <div key={index} style={{ display: 'flex', flexDirection: 'row', gap: '20px', marginBottom: '20px' }}>
         {renderSection(firstSection, index)}
+        <hr />
         {renderSection(secondSection, index + 1)}
       </div>
     );
@@ -60,7 +61,7 @@ function ProjectPage({ project }) {
     <>
       <Header />
       <div className="container">
-        <h1>{project.title}</h1>
+        <h1 className='head-title'>{project.title}</h1>
         {renderSectionsInPairs()}
       </div>
       <Footer />

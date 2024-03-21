@@ -66,7 +66,29 @@ margin-bottom: 100px;
   padding: 1rem;
 }
 
+.btn-primary{
+  background-color: var(--info-color);
+  border: none;
+}
+
+.card{
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+
+/* project page [pid.js]*/
 .project-description-text{
   margin-top: 50px;
 }
 
+
+.head-title{
+  font-size: 50px;
+  margin-bottom: 10%;
+  color: white;
+  padding: 10px;
+  background-color: var(--info-color);
+  border-radius: 20px;
+  text-align: center;
+}
