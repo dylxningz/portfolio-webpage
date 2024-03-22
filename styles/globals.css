@@ -1,7 +1,7 @@
 :root {
     --primary-color: #afd4f3; /* A vibrant, yet not overly bright blue */
     --secondary-color: #6D8891; /* A muted, grayish-blue for secondary elements */
-    --accent-color: #50B2C0; /* A calming teal for accentuating elements */
+    --accent-color: #5f868b; /* A calming teal for accentuating elements */
     --accent2-color: #88A09E; /* A soft seafoam green, great for highlights */
     --pop-color: #F2C14E; /* A muted gold for important, standout elements */
     --info-color: #345B63; /* A deep teal for informational components */
@@ -91,4 +91,25 @@ margin-bottom: 100px;
   background-color: var(--info-color);
   border-radius: 20px;
   text-align: center;
+}
+
+.section-pair{
+  margin-top: 50px;
+}
+
+.alternate-1{
+  background-color: var(--accent-color);
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.alternate-2{
+  background-color: var(--accent2-color);
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+.project-btn-sp{
+  margin-left: 50px;
 }
