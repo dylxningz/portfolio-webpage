@@ -25,6 +25,29 @@ const projects = [
         { type: "image", src: "/images/leon.jpg" },
         { type: "text", content: "ksjdksdnsad"},
       ]
+    },
+
+    {
+      id: "3",
+      title: "ITIS 3155 - Community Website Task",
+      description: "The goal of this assignment was to get somone to request a website for a client and then build it and get their review",
+      type: "Web Application",
+      tags: ["HTML","CSS","Javascript", "Academic"],
+      details: [
+        { type: "image", src: "/images/leon.jpg" },
+        { type: "text", content: "ksjdksdnsad"},
+      ]
+    }, 
+    {
+      id: "4",
+      title: "ITSC 3155 - Software Engineering Final Project",
+      description: "The main outcome of this course was to create a software project using the Agile methodology.",
+      type: "Flask Application",
+      tags: ["Python","Flask", "Academic", "Agile"],
+      details: [
+        { type: "image", src: "/images/leon.jpg" },
+        { type: "text", content: "ksjdksdnsad"},
+      ]
     }
     // More projects...
   ];
