@@ -4,7 +4,6 @@
   
   .main {
     min-height: 80vh;
-    padding: 4rem 0;
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -17,6 +16,7 @@
     line-height: 1.15;
     font-size: 4rem;
     text-align: center;
+    margin-bottom: 100px;
   }
   
   .description {
@@ -31,6 +31,7 @@
     flex-wrap: wrap;
     gap: 2rem; /* Add space between cards */
     margin-top: 3rem;
+    margin-bottom: 125px;
   }
   
   .card {
@@ -48,9 +49,9 @@
   .card:hover,
   .card:focus,
   .card:active {
-    color: #17e0e0;
-    border-color: #0070f3;
-    background-color: rgba(33, 33, 33, 0.5);
+    color: #f4f5f5;
+    border-color: #414141;
+    background-color: rgba(97, 97, 97, 0.589);
   }
   
   .card h3 {
@@ -75,3 +76,19 @@
     }
   }
   
+  .routeButton {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    border: none;
+    margin-bottom: 100px;
+  }
+
+  .routeButton button{
+    background-color: #67727a;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+  }

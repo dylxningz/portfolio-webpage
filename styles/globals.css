@@ -1,12 +1,12 @@
 :root {
-    --primary-color: #afd4f3; /* A vibrant, yet not overly bright blue */
+    --primary-color: #667b8b; /* A vibrant, yet not overly bright blue */
     --secondary-color: #6D8891; /* A muted, grayish-blue for secondary elements */
     --accent-color: #5f868b; /* A calming teal for accentuating elements */
     --accent2-color: #88A09E; /* A soft seafoam green, great for highlights */
     --pop-color: #F2C14E; /* A muted gold for important, standout elements */
-    --info-color: #345B63; /* A deep teal for informational components */
+    --info-color: #67727a; /* A deep teal for informational components */
     --light-color: #674e94; /* A light cream, providing a soft background color */
-    --dark-color: #2a3346; /* A dark slate color for text and important elements */
+    --dark-color: #b2c1e2; /* A dark slate color for text and important elements */
 }
 
 
@@ -41,7 +41,7 @@ html, body {
   body{
     background-color: var(--dark-color);
     font-family: "Nunito", sans-serif;;
-    color: white;
+    color: var(--primary-color);
   }
 
   nav{
@@ -79,16 +79,15 @@ margin-bottom: 100px;
 
 /* project page [pid.js]*/
 .project-description-text{
-  margin-top: 50px;
 }
 
 
 .head-title{
   font-size: 50px;
-  margin-bottom: 10%;
-  color: white;
+  margin-bottom: 5%;
+  color: var(--accent-color);
   padding: 10px;
-  background-color: var(--info-color);
+  border: var(--accent-color) solid 5px;
   border-radius: 20px;
   text-align: center;
 }
@@ -100,15 +99,18 @@ margin-bottom: 100px;
 .alternate-1{
   background-color: var(--accent-color);
   color: white;
-  padding: 20px;
+  padding: 50px  50px;
   border-radius: 20px;
+  font-size: 20px;
+  ;
 }
 
 .alternate-2{
   background-color: var(--accent2-color);
   color: white;
-  padding: 20px;
+  padding: 50px;
   border-radius: 20px;
+  font-size: 20px;
 }
 .project-btn-sp{
   margin-left: 50px;

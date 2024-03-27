@@ -1,5 +1,7 @@
 import Header from '../components/Header';
 import styles from '../styles/About.module.css'; // Make sure to create an About.module.css for your custom styles
+import Footer from '../components/Footer';
+import Link from 'next/link';
 
 export default function About() {
   return (
@@ -8,9 +10,9 @@ export default function About() {
         <title>About Me</title>
       </Header>
       <main className={styles.main}>
-        <h1 className={styles.title}>Hey there! I'm at UNC Charlotte</h1>
+        <h1 className={styles.title}>Hey there!</h1>
         <p className={styles.description}>
-          Pursuing a Bachelor's degree in Computer Science with a concentration in Cybersecurity at the University of North Carolina at Charlotte, I've embarked on a fascinating journey through the realms of technology and security.
+        
         </p>
 
         <div className={styles.grid}>
@@ -41,8 +43,15 @@ export default function About() {
               As I navigate through my studies and beyond, my aim is to emerge as a well-rounded coder with a robust foundation in cybersecurity. The goal is clear: to make the digital world a safer place, one line of code at a time.
             </p>
           </div>
+          
+        </div>
+        <div className={styles.routeButton}>
+          <Link href="/projects" passHref>
+            <button type="button">View Projects</button>
+          </Link>
         </div>
       </main>
+      <Footer />
     </div>
   );
 }
