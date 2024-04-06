@@ -16,13 +16,12 @@ export default function Home() {
       <Container className="my-5 cont-main">
         <Row className="align-items-center">
           <Col md={8} className="welcome-message">
-            <h1>Welcome to My Portfolio</h1>
-            <p>I'm Jeffrey Dylan Greene, a software developer with a passion for building impactful projects. Explore my work and get in touch!</p>
-            <Button variant="primary" href="/about">Learn More About Me</Button>
+            <h1>Hi! Im Dylan Greene,</h1>
+           <p>and this is my portfolio of all the hard work I have done.</p>
           </Col>
           <Col md={4} className="text-center">
             <img src="/profile.png" alt="Jeffrey Dylan Greene" className="img-fluid profile-img" />
-          </Col>
+          </Col> <Button variant="primary" href="/about">Learn More About Me</Button>
         </Row>
       </Container>
       <Footer />

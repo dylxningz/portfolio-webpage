@@ -2,9 +2,9 @@
 const projects = [
     {
       id: "1",
-      title: "ITIS 3155 - Academic Website",
-      description: "The main outcome of this course was to create and deploy simple web applications using HTML, CSS, and JavaScript.",
-      type: "Web Application",
+      title: "ITIS 3155 - Semester Long Project",
+      description: "This was a website design for a course I took in college. The course was designed to teach students the basics of web design. We started out with just a simple index and how to upload it to a server and view it from a domain. Slowy but surley we built on top of it to create things with JavaScript and even art with CSS.",
+      type: "HTML Application",
       tags: ["HTML","CSS","Javascript", "Academic"],
       link:"jeffreydylangreene.com/itcs3155",
       details: [
@@ -21,8 +21,8 @@ const projects = [
 
     {
       id: "2",
-      title: "ITIS 4166 - Web Development",
-      description: "The main outcome of this course was to create website that load dynamic data from a database MongoDB.",
+      title: "Wilderness Wares Marketplace",
+      description: "This project was created in line with a class that showed student how to use node.js and correctly create dynamic websites along with using mongodb. I chose to do a Wilderness themed marketplace. This was one of the harder courses I took as it really made me think outside the box along with learning a new way of coding.",
       type: "Node Application",
       tags: ["HTML","CSS","Javascript", "MongoDB", "Node.js", "Academic", "Express"],
       details: [
@@ -41,9 +41,9 @@ const projects = [
 
     {
       id: "3",
-      title: "ITIS 3155 - Community Website Task",
-      description: "The goal of this assignment was to get somone to request a website for a client and then build it and get their review",
-      type: "Web Application",
+      title: "Levi's Gaming Corner",
+      description: "This was a website I created at the end of the year in my first web design class. We had to act as if someone had hired us to create a website for whatver they desired. I choose a friend of mine as a client and he wanted to create a page where people could see his stats and gameplay videos. This was a fun project and I learned a lot about how to create a website for a client.",
+      type: "HTML Application",
       tags: ["HTML","CSS","Javascript", "Academic"],
       details: [
         { type: "image", src: "/images/leon.jpg" },
@@ -52,8 +52,8 @@ const projects = [
     }, 
     {
       id: "4",
-      title: "ITSC 3155 - Software Engineering Final Project",
-      description: "The main outcome of this course was to create a software project using the Agile methodology.",
+      title: "Symphony Sonar",
+      description: "This was a group project for a class that introduced Flask and Python to us. We were tasked with creating a website that could be used to help people find music they would like. We used the Spotify API to help us with this project. This project tought my alot about product managment along with make sure what we were delivering could be deployed and confidently work with many diffrent users.",
       type: "Flask Application",
       tags: ["Python","Flask", "Academic", "Agile"],
       details: [

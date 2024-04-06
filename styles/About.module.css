@@ -51,7 +51,7 @@
   .card:active {
     color: #f4f5f5;
     border-color: #414141;
-    background-color: rgba(97, 97, 97, 0.589);
+    background-color: rgba(128, 75, 172, 0.449);
   }
   
   .card h3 {
@@ -85,7 +85,7 @@
   }
 
   .routeButton button{
-    background-color: #67727a;
+    background-color: #65517e;
     color: white;
     padding: 10px 20px;
     text-align: center;

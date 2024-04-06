@@ -1,12 +1,12 @@
 :root {
-    --primary-color: #667b8b; /* A vibrant, yet not overly bright blue */
-    --secondary-color: #6D8891; /* A muted, grayish-blue for secondary elements */
-    --accent-color: #5f868b; /* A calming teal for accentuating elements */
+    --primary-color: #a4a3a7; /* A vibrant, yet not overly bright blue */
+    --secondary-color: #988eb1; /* A muted, grayish-blue for secondary elements */
+    --accent-color: #8363b2; /* A calming teal for accentuating elements */
     --accent2-color: #88A09E; /* A soft seafoam green, great for highlights */
     --pop-color: #F2C14E; /* A muted gold for important, standout elements */
     --info-color: #67727a; /* A deep teal for informational components */
     --light-color: #674e94; /* A light cream, providing a soft background color */
-    --dark-color: #b2c1e2; /* A dark slate color for text and important elements */
+    --dark-color: #2d2d2d; /* A dark slate color for text and important elements */
 }
 
 
@@ -54,11 +54,19 @@ margin-bottom: 100px;
     text-decoration: none;
     margin-right: 20px;
   }
+
+  .nav-item a:hover{
+    color: var(--accent-color);
+  }
 .navbar-brand{
     color: var(--primary-color);
     font-size: 20px;
     text-decoration: none;
     margin-left: 20px;
+}
+
+.navbar-brand:hover{
+    color: var(--accent-color);
 }
 
 .footer {
@@ -114,4 +122,34 @@ margin-bottom: 100px;
 }
 .project-btn-sp{
   margin-left: 50px;
+}
+.card-title{
+  font-size: 30px;
+  margin-top: 30px;
+  color: white;
+  text-align: center;
+
+}
+.card-text{
+  margin-top: 30px;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.card-subtle{
+  color: lightgrey;
+  font-size: 15px;
+  margin-top: -15px;
+  margin-bottom: 10px;
+}
+.card-btn{
+  text-align: center;
+  flex: auto;
+  margin: 7px;
+}
+
+.card-footer{
+  display: flex;
 }

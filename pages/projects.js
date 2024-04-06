@@ -26,9 +26,12 @@ export default function ProjectsPage() {
                   <div className="card-body">
                     <h5 className="card-title">{project.title}</h5>
                     <p className="card-text">{project.description}</p>
-                    <Link href={`/project/${project.id}`} legacyBehavior>
-                      <a className="btn btn-primary">Learn More</a>
-                    </Link>
+                    <p className="card-subtle"> <strong>Type:</strong> {project.type}</p>
+                    <p className="card-subtle"> <strong>Tags:</strong> {project.tags.join(', ')}</p>
+                    <div className="card-footer">
+                    <a href={`/project/${project.id}`} className="btn btn-primary card-btn">Github</a>
+                    <a href={`/project/${project.id}`} className="btn btn-primary card-btn">View</a>
+                    </div>
                   </div>
                 </div>
               </div>
